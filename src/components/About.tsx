@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -9,9 +10,16 @@ export default function About() {
 
       <Reveal delay={80}>
         <div className="rounded-xl border border-border bg-bg-card p-8 transition-colors hover:border-accent/40">
-          <div className="grid gap-8 md:grid-cols-[160px_1fr]">
-            <div className="mx-auto h-32 w-32 rounded-lg bg-border/40 md:mx-0" />
-
+          <div className="grid gap-8 md:grid-cols-[220px_1fr]">
+  <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-lg bg-border/40 md:mx-0 md:h-52 md:w-52">
+    <Image
+      src="/images/trisha1.jpg"
+      alt="Trisha Pal"
+      fill
+      sizes="(min-width: 768px) 208px, 192px"
+      className="object-cover"
+    />
+  </div>
             <div className="space-y-4 text-text-secondary">
               <p>
                 I&apos;m a Computer Science &amp; Engineering student (2023&ndash;2027)
@@ -24,7 +32,7 @@ export default function About() {
                 I focus on the intersection of solid backend logic and clean user
                 experience &mdash; shipping full-stack features with React and
                 Django, and sharpening my skills through a 4-month AI/ML course and
-                regular competitive programming on LeetCode and Codeforces.
+                problem solving on LeetCode and Codeforces.
               </p>
             </div>
           </div>

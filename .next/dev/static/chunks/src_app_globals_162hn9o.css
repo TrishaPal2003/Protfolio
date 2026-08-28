@@ -516,6 +516,10 @@
     height: calc(var(--spacing) * 40);
   }
 
+  .h-48 {
+    height: calc(var(--spacing) * 48);
+  }
+
   .h-72 {
     height: calc(var(--spacing) * 72);
   }
@@ -538,6 +542,10 @@
 
   .w-32 {
     width: calc(var(--spacing) * 32);
+  }
+
+  .w-48 {
+    width: calc(var(--spacing) * 48);
   }
 
   .w-72 {
@@ -819,6 +827,10 @@
 
   .bg-\[size\:44px_44px\] {
     background-size: 44px 44px;
+  }
+
+  .object-cover {
+    object-fit: cover;
   }
 
   .p-6 {
@@ -1265,8 +1277,16 @@
       display: flex;
     }
 
+    .md\:h-52 {
+      height: calc(var(--spacing) * 52);
+    }
+
     .md\:h-full {
       height: 100%;
+    }
+
+    .md\:w-52 {
+      width: calc(var(--spacing) * 52);
     }
 
     .md\:grid-cols-2 {
