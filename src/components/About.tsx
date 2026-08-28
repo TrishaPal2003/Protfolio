@@ -13,7 +13,7 @@ export default function About() {
           <div className="grid gap-8 md:grid-cols-[220px_1fr]">
   <div className="relative mx-auto h-48 w-48 overflow-hidden rounded-lg bg-border/40 md:mx-0 md:h-52 md:w-52">
     <Image
-      src="/images/trisha1.jpg"
+      src="/images/trisha.jpg"
       alt="Trisha Pal"
       fill
       sizes="(min-width: 768px) 208px, 192px"

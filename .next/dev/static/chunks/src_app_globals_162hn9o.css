@@ -508,10 +508,6 @@
     height: calc(var(--spacing) * 10);
   }
 
-  .h-32 {
-    height: calc(var(--spacing) * 32);
-  }
-
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
@@ -538,10 +534,6 @@
 
   .w-10 {
     width: calc(var(--spacing) * 10);
-  }
-
-  .w-32 {
-    width: calc(var(--spacing) * 32);
   }
 
   .w-48 {
@@ -1291,10 +1283,6 @@
 
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .md\:grid-cols-\[160px_1fr\] {
-      grid-template-columns: 160px 1fr;
     }
 
     .md\:grid-cols-\[220px_1fr\] {
