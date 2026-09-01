@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const contactLinks = [
-  {
-    label: "Email",
-    value: "trishapal160@gmail.com",
-    href: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new",
+  { 
+    label: "Email", 
+    value: "trishapal160@gmail.com", 
+    href: "mailto:trishapal160@gmail.com", 
   },
   {
     label: "Phone",
