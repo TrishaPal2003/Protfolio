@@ -2,35 +2,36 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    slug: "narayanpur-high-school-website",
-    title: "Narayanpur High School Website",
+    id: 1,
+    slug: "narayanpur-high-school",
+    title: "Narayanpur High School",
     description:
-      "Led and delivered the frontend for a 500-student school portal, covering registration, student lists, routines, notice boards, and a gallery. Architected modular React components with a Tailwind system for maintainable, responsive layouts, integrated with backend REST APIs.",
-    tags: ["React", "Tailwind CSS", "REST APIs"],
+      "A modern school website built to centralize academic and institutional information, featuring class routines, teacher profiles, notices, school history, photo galleries, and essential contact information for students, parents, and visitors.",
+    image: "/images/School.png",
+    live: "https://www.narayanpurhighschool.edu.bd/",
     icon: "school",
+    tags: ["Next.js", "React", "Tailwind CSS"],
   },
   {
-    slug: "blood-bank-management-system",
-    title: "Blood Bank Management System",
+    id: 2,
+    slug: "advocate-depankar-chakraborty",
+    title: "Advocate Depankar Chakraborty",
     description:
-      "Ongoing project delivering end-to-end CRUD functionality, search, and dynamic interactions. Implemented Google OAuth for secure login and JWT verification.",
-    tags: ["Django", "DRF", "React", "Tailwind CSS"],
-    icon: "blood",
-  },
-  {
-    slug: "legal-advisor-portal",
-    title: "Legal Advisor Portal",
-    description:
-      "A web application built for a practicing lawyer to manage client interactions, case schedules, and legal resources, with secure document sharing and appointment booking.",
-    tags: ["React", "Tailwind CSS", "Django"],
+      "A modern legal-services platform built to establish professional credibility and generate client enquiries, with structured practice areas, case results, legal content, advocate profiles, and consultation workflows.",
+    image: "/images/Advocate.png",
+    live: "https://portfolio1-depankar-chakraborty-adv.vercel.app",
     icon: "legal",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
   },
   {
-    slug: "dental-care-management",
-    title: "Dental Care Management",
+    id: 3,
+    slug: "sanjoy-dental-care",
+    title: "Sanjoy Dental Care",
     description:
-      "A management system for a dental clinic covering patient records, appointment scheduling, treatment tracking, and billing for a streamlined administrative workflow.",
-    tags: ["React", "Tailwind CSS", "Django"],
+      "A modern dental clinic website designed to build patient trust and drive appointment bookings, featuring comprehensive dental services, treatment information, patient testimonials, clinic details, working hours, and clear contact and appointment call-to-actions.",
+    image: "/images/Dental.png",
+    live: "https://portfolio2-sanjay-paul-dentist.vercel.app/",
     icon: "dental",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
   },
 ];

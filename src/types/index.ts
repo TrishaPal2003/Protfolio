@@ -1,11 +1,16 @@
-export interface Project {
+export type ProjectIcon = "school" | "blood" | "legal" | "dental";
+
+export type Project = {
+  id: number;
   slug: string;
   title: string;
   description: string;
-  tags: string[];
-  icon: "school" | "blood" | "legal" | "dental";
+  image: string;
+  live: string;
   href?: string;
-}
+  icon: ProjectIcon;
+  tags: string[];
+};
 
 export interface SkillGroup {
   title: string;
