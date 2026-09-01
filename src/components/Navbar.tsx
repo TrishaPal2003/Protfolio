@@ -97,7 +97,8 @@ export default function Navbar() {
 
           {/* Resume - Desktop */}
           <a
-            href="/images/resume.pdf"
+            href="/images/Trisha Pal.pdf"
+            target="_blank"
             className="hidden rounded-md bg-accent-soft px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 md:block"
           >
             Resume
@@ -154,7 +155,8 @@ export default function Navbar() {
               {/* Resume - Mobile */}
               <li className="pt-2">
                 <a
-                  href="/resume.pdf"
+                  href="/images/Trisha Pal.pdf"
+                  target="_blank"
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-md bg-accent-soft px-4 py-3 text-center text-sm font-medium text-white transition-opacity hover:opacity-90"
                 >

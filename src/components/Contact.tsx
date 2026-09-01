@@ -5,6 +5,7 @@ const contactLinks = [
     label: "Email", 
     value: "trishapal160@gmail.com", 
     href: "mailto:trishapal160@gmail.com", 
+    
   },
   {
     label: "Phone",

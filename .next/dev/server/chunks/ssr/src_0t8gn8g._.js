@@ -326,7 +326,8 @@ function Navbar() {
                     className: "flex items-center gap-3",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "/images/resume.pdf",
+                            href: "/images/Trisha Pal.pdf",
+                            target: "_blank",
                             className: "hidden rounded-md bg-accent-soft px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 md:block",
                             children: "Resume"
                         }, void 0, false, {
@@ -346,27 +347,27 @@ function Navbar() {
                                     className: `block h-0.5 w-6 bg-text-primary transition-all duration-300 ${mobileOpen ? "translate-y-2 rotate-45" : ""}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: `block h-0.5 w-6 bg-text-primary transition-all duration-300 ${mobileOpen ? "opacity-0" : ""}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 122,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: `block h-0.5 w-6 bg-text-primary transition-all duration-300 ${mobileOpen ? "-translate-y-2 -rotate-45" : ""}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Navbar.tsx",
-                            lineNumber: 107,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
@@ -389,40 +390,41 @@ function Navbar() {
                                         children: link.label
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Navbar.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 145,
                                         columnNumber: 19
                                     }, this)
                                 }, link.href, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 144,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 className: "pt-2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/resume.pdf",
+                                    href: "/images/Trisha Pal.pdf",
+                                    target: "_blank",
                                     onClick: ()=>setMobileOpen(false),
                                     className: "block rounded-md bg-accent-soft px-4 py-3 text-center text-sm font-medium text-white transition-opacity hover:opacity-90",
                                     children: "Resume"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 157,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Navbar.tsx",
-                                lineNumber: 155,
+                                lineNumber: 156,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Navbar.tsx",
-                        lineNumber: 141,
+                        lineNumber: 142,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
-                    lineNumber: 137,
+                    lineNumber: 138,
                     columnNumber: 11
                 }, this)
             ]
