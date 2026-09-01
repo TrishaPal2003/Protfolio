@@ -156,7 +156,7 @@ export default function Navbar() {
               <li className="pt-2">
                 <a
                   href="/images/Trisha Pal.pdf"
-                  target="_blank"
+                  // target="_blank"
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-md bg-accent-soft px-4 py-3 text-center text-sm font-medium text-white transition-opacity hover:opacity-90"
                 >
