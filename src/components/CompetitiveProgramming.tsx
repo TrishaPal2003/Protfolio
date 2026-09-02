@@ -2,8 +2,16 @@ import { TrophyIcon } from "./icons";
 import Reveal from "./Reveal";
 
 const PLATFORMS = [
-  { name: "LeetCode", status: "Active Solver" },
-  { name: "Codeforces", status: "Active Participant" },
+  {
+    name: "LeetCode",
+    status: "Problem Solver",
+    url: "https://leetcode.com/u/trishapal160/",
+  },
+  {
+    name: "Codeforces",
+    status: "Participant",
+    url: "https://codeforces.com/profile/TRISHA_PAL58",
+  },
 ];
 
 export default function CompetitiveProgramming() {
@@ -30,7 +38,14 @@ export default function CompetitiveProgramming() {
               key={platform.name}
               className="flex flex-1 items-center justify-between rounded-md border border-border bg-bg px-4 py-3 text-sm"
             >
-              <span className="font-medium text-text-primary">{platform.name}</span>
+              <a
+                href={platform.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-text-primary transition-colors hover:text-emerald-400"
+              >
+                {platform.name}
+              </a>
               <span className="text-text-secondary">{platform.status}</span>
             </div>
           ))}

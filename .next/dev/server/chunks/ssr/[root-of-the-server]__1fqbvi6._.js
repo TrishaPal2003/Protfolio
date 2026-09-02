@@ -313,11 +313,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Reveal$
 const PLATFORMS = [
     {
         name: "LeetCode",
-        status: "Active Solver"
+        status: "Problem Solver",
+        url: "https://leetcode.com/u/trishapal160/"
     },
     {
         name: "Codeforces",
-        status: "Active Participant"
+        status: "Participant",
+        url: "https://codeforces.com/profile/TRISHA_PAL58"
     }
 ];
 function CompetitiveProgramming() {
@@ -334,7 +336,7 @@ function CompetitiveProgramming() {
                                 className: "h-6 w-6 text-emerald-400"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                                lineNumber: 15,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -342,13 +344,13 @@ function CompetitiveProgramming() {
                                 children: "Competitive Programming"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                                lineNumber: 16,
+                                lineNumber: 24,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                        lineNumber: 14,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -356,7 +358,7 @@ function CompetitiveProgramming() {
                         children: "ICPC 2024"
                     }, void 0, false, {
                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                        lineNumber: 21,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -364,7 +366,7 @@ function CompetitiveProgramming() {
                         children: "Participated in the ICPC 2024 Dhaka Regionals, collaborating under pressure to solve algorithmic challenges against top regional talent."
                     }, void 0, false, {
                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                        lineNumber: 22,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -372,12 +374,15 @@ function CompetitiveProgramming() {
                         children: PLATFORMS.map((platform)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-1 items-center justify-between rounded-md border border-border bg-bg px-4 py-3 text-sm",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-medium text-text-primary",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: platform.url,
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        className: "font-medium text-text-primary transition-colors hover:text-emerald-400",
                                         children: platform.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 41,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -385,34 +390,34 @@ function CompetitiveProgramming() {
                                         children: platform.status
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, platform.name, true, {
                                 fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                                lineNumber: 29,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                        lineNumber: 27,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-                lineNumber: 13,
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-            lineNumber: 12,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/CompetitiveProgramming.tsx",
-        lineNumber: 11,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -1522,6 +1527,22 @@ const projects = [
             "React",
             "Tailwind CSS",
             "Responsive Design"
+        ]
+    },
+    {
+        id: 4,
+        slug: "blood-bank",
+        title: "Blood Bank",
+        description: "A full-stack blood bank management platform that streamlines donor and blood information management with a responsive React frontend and Django REST API backend.",
+        image: "/images/blood.png",
+        live: "https://blood-bank-delta-dun.vercel.app/",
+        icon: "blood",
+        tags: [
+            "React",
+            "Tailwind CSS",
+            "Responsive Design",
+            "Django",
+            "Rest Framework"
         ]
     }
 ];

@@ -34,4 +34,15 @@ export const projects: Project[] = [
     icon: "dental",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
   },
+  {
+    id: 4,
+    slug: "blood-bank",
+    title: "Blood Bank",
+    description:
+      "A full-stack blood bank management platform that streamlines donor and blood information management with a responsive React frontend and Django REST API backend.",
+    image: "/images/blood.png",
+    live: "https://blood-bank-delta-dun.vercel.app/",
+    icon: "blood",
+    tags: ["React", "Tailwind CSS", "Responsive Design", "Django", "Rest Framework"],
+  },
 ];
